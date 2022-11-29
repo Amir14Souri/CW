@@ -4,7 +4,9 @@ long long int factoriel(int n);
 
 int main()
 {
-    printf("%lld", factoriel(5));
+    int num;
+    scanf("%d", &num);
+    printf("%lld", factoriel(num));
 
     return 0;
 }
