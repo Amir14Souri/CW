@@ -6,7 +6,7 @@ int main()
 {
     int num;
     scanf("%d", &num);
-    printf("%lld", factoriel(num));
+    printf("%d! = %lld", num, factoriel(num));
 
     return 0;
 }
