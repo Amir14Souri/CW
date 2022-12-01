@@ -1,9 +1,7 @@
 include <stdio.h>
-include <math.h>
 
 int main() {
-   printf("Hello  World!\n");
-   printf("%d", pow(2, 3));
+   printf("Hello  World!");
    
    return 0;
 }
